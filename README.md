@@ -64,4 +64,4 @@ A simple Todo application built with Spring Boot and Thymeleaf. This project dem
 ## 📸 Screenshots
 
 ![Home Page](screenshots/homepage.png)
-![Delete Task](screenshots/delete_task.png)
+![Delete Task](screenshots/deletepage.png)
