@@ -1,10 +1,13 @@
 HELP.md
-out/
-target/
+
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
 !**/src/test/**/target/
+out/
+target/*
+!target/
 !target/todo_application-0.0.1-SNAPSHOT.jar
+
 
 ### STS ###
 .apt_generated
