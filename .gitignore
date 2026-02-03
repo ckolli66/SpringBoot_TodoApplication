@@ -1,36 +1,33 @@
-HELP.md
+# ---- Maven / Gradle build output ----
+target/
+build/
 
-!.mvn/wrapper/maven-wrapper.jar
-!**/src/main/**/target/
-!**/src/test/**/target/
-out/
-target/*
-!target/
-!target/todo_application-0.0.1-SNAPSHOT.jar
-
-
-### STS ###
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
-.sts4-cache
-.gitattributes
-
-### IntelliJ IDEA ###
-.idea
-*.iws
-*.iml
-*.ipr
-
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
-
-### VS Code ###
+# ---- IDE files ----
+.idea/
 .vscode/
+*.iml
+
+# ---- OS files ----
+.DS_Store
+Thumbs.db
+
+# ---- Logs ----
+*.log
+
+# ---- Environment / secrets ----
+.env
+.env.*
+*.properties.local
+*.yml.local
+
+# ---- Compiled Java ----
+*.class
+
+# ---- Temporary / backup files ----
+*~
+*.swp
+*.bak
+
+# ---- Node / frontend (if you ever add React) ----
+node_modules/
+dist/
