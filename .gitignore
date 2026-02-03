@@ -17,7 +17,7 @@ target/*
 .settings
 .springBeans
 .sts4-cache
-.gitattribute
+.gitattributes
 
 ### IntelliJ IDEA ###
 .idea
