@@ -1,33 +1,44 @@
-# ---- Maven / Gradle build output ----
+# ===============================
+# Maven / Build output
+# ===============================
 target/
+out/
 build/
 
-# ---- IDE files ----
+# ===============================
+# IDE files
+# ===============================
 .idea/
 .vscode/
 *.iml
 
-# ---- OS files ----
+# ===============================
+# OS files
+# ===============================
 .DS_Store
 Thumbs.db
 
-# ---- Logs ----
+# ===============================
+# Logs
+# ===============================
 *.log
 
-# ---- Environment / secrets ----
+# ===============================
+# Environment / Secrets (IMPORTANT)
+# ===============================
 .env
 .env.*
 *.properties.local
 *.yml.local
 
-# ---- Compiled Java ----
+# ===============================
+# Compiled Java
+# ===============================
 *.class
 
-# ---- Temporary / backup files ----
+# ===============================
+# Temporary / Backup files
+# ===============================
 *~
 *.swp
 *.bak
-
-# ---- Node / frontend (if you ever add React) ----
-node_modules/
-dist/
