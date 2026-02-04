@@ -11,8 +11,8 @@ public class TodoApplication {
     // This is a common method to make them accessible to Spring Boot
 
     public static void main(String[] args) {
-        Dotenv dotenv = Dotenv.configure().load();
-        dotenv.entries().forEach(e ->System.setProperty(e.getKey(),e.getValue()));
+//        Dotenv dotenv = Dotenv.configure().load();
+//        dotenv.entries().forEach(e ->System.setProperty(e.getKey(),e.getValue()));
         SpringApplication.run(TodoApplication.class, args);
     }
 
